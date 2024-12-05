@@ -1,0 +1,684 @@
+Unity Editor version:    2022.3.20f1 (61c2feb0970d)
+Branch:                  2022.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.1.1 (Build 24B91)
+Darwin version:          24.1.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/akshaykadam/Documents/UnityApps/TwinDash
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+49443
+Successfully changed project path to: /Users/akshaykadam/Documents/UnityApps/TwinDash
+/Users/akshaykadam/Documents/UnityApps/TwinDash
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8659548224] Host "[IP] 192.168.0.101 [Port] 0 [Flags] 2 [Guid] 20970111 [EditorId] 20970111 [Version] 1048832 [Id] OSXEditor(0,Akshays-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8659548224] Host "[IP] 192.168.0.101 [Port] 0 [Flags] 2 [Guid] 20970111 [EditorId] 20970111 [Version] 1048832 [Id] OSXEditor(0,Akshays-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 13.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.20f1 (61c2feb0970d)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/akshaykadam/Documents/UnityApps/TwinDash/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.20f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003317 seconds.
+- Loaded All Assemblies, in  0.273 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 101 ms
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.394 seconds
+Domain Reload Profiling: 667ms
+	BeginReloadAssembly (70ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (126ms)
+		LoadAssemblies (71ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (123ms)
+			TypeCache.Refresh (122ms)
+				TypeCache.ScanAssembly (110ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (394ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (349ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (233ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (79ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Assembly 'Assets/ExternalDependencyManager/Editor/Google.VersionHandlerImpl_v1.2.156.dll' will not be loaded due to errors:
+Assembly name 'Google.VersionHandlerImpl' does not match file name 'Google.VersionHandlerImpl_v1.2.156'
+Assembly 'Assets/ExternalDependencyManager/Editor/Google.IOSResolver_v1.2.156.dll' will not be loaded due to errors:
+Assembly name 'Google.IOSResolver' does not match file name 'Google.IOSResolver_v1.2.156'
+Assembly 'Assets/ExternalDependencyManager/Editor/Google.JarResolver_v1.2.156.dll' will not be loaded due to errors:
+Assembly name 'Google.JarResolver' does not match file name 'Google.JarResolver_v1.2.156'
+Symbol file LoadedFromMemory is not a mono symbol file
+Assembly 'Assets/ExternalDependencyManager/Editor/Google.PackageManagerResolver_v1.2.156.dll' will not be loaded due to errors:
+Assembly name 'Google.PackageManagerResolver' does not match file name 'Google.PackageManagerResolver_v1.2.156'
+- Loaded All Assemblies, in  0.470 seconds
+Refreshing native plugins compatible for Editor in 4.82 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.548 seconds
+Domain Reload Profiling: 1018ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (306ms)
+		LoadAssemblies (242ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (107ms)
+			TypeCache.Refresh (92ms)
+				TypeCache.ScanAssembly (74ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (549ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (388ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (205ms)
+			ProcessInitializeOnLoadMethodAttributes (123ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Shader 'Toon/Lit Outline': fallback shader 'Toon/Lit' not found
+WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lit Outline': fallback shader 'Toon/Lit' not found
+WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 4.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2821 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 134 unused Assets / (116.3 KB). Loaded Objects now: 3206.
+Memory consumption went from 127.8 MB to 127.7 MB.
+Total: 6.950208 ms (FindLiveObjects: 0.088959 ms CreateObjectMapping: 0.040459 ms MarkObjects: 6.638958 ms  DeleteObjects: 0.180542 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2915.223984 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(466c1c4125583414384db6702f726975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(466c1c4125583414384db6702f726975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c648de5d2ed25b42e440a671d7c4f7') in 0.001369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x3232ab000 may have been prematurely finalized
+Assembly 'Assets/ExternalDependencyManager/Editor/Google.VersionHandlerImpl_v1.2.156.dll' will not be loaded due to errors:
+Assembly name 'Google.VersionHandlerImpl' does not match file name 'Google.VersionHandlerImpl_v1.2.156'
+Assembly 'Assets/ExternalDependencyManager/Editor/Google.IOSResolver_v1.2.156.dll' will not be loaded due to errors:
+Assembly name 'Google.IOSResolver' does not match file name 'Google.IOSResolver_v1.2.156'
+Assembly 'Assets/ExternalDependencyManager/Editor/Google.JarResolver_v1.2.156.dll' will not be loaded due to errors:
+Assembly name 'Google.JarResolver' does not match file name 'Google.JarResolver_v1.2.156'
+Symbol file LoadedFromMemory is not a mono symbol file
+Assembly 'Assets/ExternalDependencyManager/Editor/Google.PackageManagerResolver_v1.2.156.dll' will not be loaded due to errors:
+Assembly name 'Google.PackageManagerResolver' does not match file name 'Google.PackageManagerResolver_v1.2.156'
+- Loaded All Assemblies, in  0.510 seconds
+Refreshing native plugins compatible for Editor in 4.44 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.830 seconds
+Domain Reload Profiling: 1341ms
+	BeginReloadAssembly (314ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (140ms)
+		LoadAssemblies (165ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (831ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (381ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (200ms)
+			ProcessInitializeOnLoadMethodAttributes (120ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Shader 'Toon/Lit Outline': fallback shader 'Toon/Lit' not found
+WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lit Outline': fallback shader 'Toon/Lit' not found
+WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 6.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2813 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 125 unused Assets / (94.3 KB). Loaded Objects now: 3209.
+Memory consumption went from 134.2 MB to 134.1 MB.
+Total: 6.427625 ms (FindLiveObjects: 0.111542 ms CreateObjectMapping: 0.040375 ms MarkObjects: 6.130625 ms  DeleteObjects: 0.144542 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 45.173062 seconds.
+  path: Assets/Material/aura_vertical.mat
+  artifactKey: Guid(a3706764c40746746934f5d22917b0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/aura_vertical.mat using Guid(a3706764c40746746934f5d22917b0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c956f97533f611b34fbae3104f771b') in 0.058986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Model/Materials/Car_6C_D.mat
+  artifactKey: Guid(e356d321352d64367a12c20ea94e8109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Materials/Car_6C_D.mat using Guid(e356d321352d64367a12c20ea94e8109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af49222faec7e5e78cf446310a0128d') in 0.015911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Material/lightning2.mat
+  artifactKey: Guid(14be5e3a1d16be14281688ea50c69c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/lightning2.mat using Guid(14be5e3a1d16be14281688ea50c69c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af89882e7514b8b84b38f7285a1685c4') in 0.118664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Model/Materials/Car_3A_D.mat
+  artifactKey: Guid(859645d1588e9407eacaa5b450f26135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Materials/Car_3A_D.mat using Guid(859645d1588e9407eacaa5b450f26135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535d213a9d82213ba3559d4a1a42874d') in 0.005556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Model/Materials/Car_7C_D.mat
+  artifactKey: Guid(b53227edbb4244621afcb882b494d216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Materials/Car_7C_D.mat using Guid(b53227edbb4244621afcb882b494d216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c450265a32f6e463595405119ee799e8') in 0.005231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Material/Beam.mat
+  artifactKey: Guid(d840077cd6263cd4a99411f0f33f4daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Beam.mat using Guid(d840077cd6263cd4a99411f0f33f4daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1f63d533ddd60e7c75884d85072b9a') in 0.103632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Material/circlecurve_magic.mat
+  artifactKey: Guid(6eb991e61c0314441bebec3f82ff5838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/circlecurve_magic.mat using Guid(6eb991e61c0314441bebec3f82ff5838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c85f6b089aee392caacf93e45efd07') in 0.005568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Material/dev2.mat
+  artifactKey: Guid(207691d913319fa408633bc6df8080c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/dev2.mat using Guid(207691d913319fa408633bc6df8080c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcbb72758933e6d9c9f31b9c119ec237') in 0.098274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Model/Finish Tunnel.fbx
+  artifactKey: Guid(47b3c95f807bbd84b8615d8a2800a63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Finish Tunnel.fbx using Guid(47b3c95f807bbd84b8615d8a2800a63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da713e76059ed90f4f6706e99cad6e3e') in 0.081106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Image/Font/8-BIT WONDER.TTF
+  artifactKey: Guid(59be2e068d2fa4974a5aff54435cd20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/Font/8-BIT WONDER.TTF using Guid(59be2e068d2fa4974a5aff54435cd20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3a76f68d11ab7d82d9aa0c61d8b298') in 0.024361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Model/Materials/Car_6A_D.mat
+  artifactKey: Guid(e2f06736c003f4a8189a598c4d713817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Materials/Car_6A_D.mat using Guid(e2f06736c003f4a8189a598c4d713817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f1b41c4d487ef22caee238576b32008') in 0.004325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Material/cloud_2x2_hard.mat
+  artifactKey: Guid(d386c5d9fb941e845b73fe6da5491ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/cloud_2x2_hard.mat using Guid(d386c5d9fb941e845b73fe6da5491ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b35d8ed51e0a31d87f9c831ffe7d66') in 0.004557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Model/CrossRoad.fbx
+  artifactKey: Guid(4f4e1c1322be54b40a2be599d7b6e2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/CrossRoad.fbx using Guid(4f4e1c1322be54b40a2be599d7b6e2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d8edcadb8dd30fd2cb3b0984444ec9') in 0.022284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Image/Font/CooperHewitt-Heavy.otf
+  artifactKey: Guid(62e8f5e0186acc14691092be7dec8963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/Font/CooperHewitt-Heavy.otf using Guid(62e8f5e0186acc14691092be7dec8963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039e9dd2fb2dd98f3a2e10fdc1fe804a') in 0.005846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Material/Car_2A_D.mat
+  artifactKey: Guid(02ebea96d300242bd95f7fca6d9d1cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Car_2A_D.mat using Guid(02ebea96d300242bd95f7fca6d9d1cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Toon/Lit Outline': fallback shader 'Toon/Lit' not found
+WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ -> (artifact id: '837630c969271c10e126d3bf2ed2db3c') in 0.009340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Material/Car_9A_D.mat
+  artifactKey: Guid(1d850a059e3fd49ca97016b240de0eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Car_9A_D.mat using Guid(1d850a059e3fd49ca97016b240de0eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Toon/Lit Outline': fallback shader 'Toon/Lit' not found
+WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ -> (artifact id: '30c2c953542241d47676c7c11191647b') in 0.005272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Image/Font/CooperHewitt-Bold.otf
+  artifactKey: Guid(45fc060581be2d6459b98fa92ded0489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/Font/CooperHewitt-Bold.otf using Guid(45fc060581be2d6459b98fa92ded0489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5ecc4aefee40c511e284d6b80d3c25') in 0.007580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Material/Car_3A_D.mat
+  artifactKey: Guid(47024804ece744aafb62d317b2372057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Car_3A_D.mat using Guid(47024804ece744aafb62d317b2372057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8565577cca6559a7ddb18998bb903919') in 0.095053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Material/Light_Blue.mat
+  artifactKey: Guid(805c51b7cc20b4c84834cec7b5381c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Light_Blue.mat using Guid(805c51b7cc20b4c84834cec7b5381c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed6b549e9b2807ac1e7982f53ddfc6bc') in 0.005534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Material/Light_Neutral.mat
+  artifactKey: Guid(1f0e5faacc5fc4dcbb085e9b279e9881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Light_Neutral.mat using Guid(1f0e5faacc5fc4dcbb085e9b279e9881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbfa2e8e8625b273e3bb7e7450ecf345') in 0.004266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Material/Car_6C_D.mat
+  artifactKey: Guid(5e888f9c89c2343c78f3dec940c121d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Car_6C_D.mat using Guid(5e888f9c89c2343c78f3dec940c121d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Toon/Lit Outline': fallback shader 'Toon/Lit' not found
+WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ -> (artifact id: '66c41f1c92364346025d862cfa9c8dad') in 0.005635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Model/Sheep.fbx
+  artifactKey: Guid(82c5b2b9d328ea04888cda637a02c62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Sheep.fbx using Guid(82c5b2b9d328ea04888cda637a02c62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157c827127e6e4ac29504d855808965f') in 0.025405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Model/Materials/Car_9A_D.mat
+  artifactKey: Guid(8c4bd3e982c494e81b8e1ebf49c2890c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Materials/Car_9A_D.mat using Guid(8c4bd3e982c494e81b8e1ebf49c2890c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9fdcb1b07121f06a28f93ef09bd9462') in 0.004477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Material/confetti.mat
+  artifactKey: Guid(3625342a449601544b410357b8e7f201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/confetti.mat using Guid(3625342a449601544b410357b8e7f201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c73b4ca7e048bb18eff4f225c56ec1') in 0.004789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000899 seconds.
+  path: Assets/Model/AlienBox.fbx
+  artifactKey: Guid(8bca07bd948d2b9408a8a20292c8c8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/AlienBox.fbx using Guid(8bca07bd948d2b9408a8a20292c8c8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4a4f31001cab56b2672e91ea1d87fc') in 0.018236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Material/Light_Red.mat
+  artifactKey: Guid(c03ede3143de248748e6fd3fa5e0b4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Light_Red.mat using Guid(c03ede3143de248748e6fd3fa5e0b4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797eae02a0498561690ff68417b52b3c') in 0.003954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Material/disappoint.mat
+  artifactKey: Guid(b0345d6b496b88744a4fe169db3b58c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/disappoint.mat using Guid(b0345d6b496b88744a4fe169db3b58c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9ccd9c1b42ae4a3c7443301903d899') in 0.005920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Model/Gate1.fbx
+  artifactKey: Guid(5022f29af6b8be74cb8c11943e47b046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Gate1.fbx using Guid(5022f29af6b8be74cb8c11943e47b046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39aa3206b94eb75bcfc1bf95d99b6df9') in 0.013718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Model/Materials/Light_Neutral.mat
+  artifactKey: Guid(0e19826aa6f8348099cec05f086a00dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Materials/Light_Neutral.mat using Guid(0e19826aa6f8348099cec05f086a00dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d5c46a2817b73a970a3cc25b14722b') in 0.006667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Material/Car_7C_D.mat
+  artifactKey: Guid(a2892f92b5ae54f97bdd9a913c6b86ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Car_7C_D.mat using Guid(a2892f92b5ae54f97bdd9a913c6b86ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Toon/Lit Outline': fallback shader 'Toon/Lit' not found
+WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ -> (artifact id: 'c975c3203a2505848856b4b08df661ed') in 0.005051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 18.183604 seconds.
+  path: Assets/Model/Beam.fbx
+  artifactKey: Guid(a475fb6771eb0fa46bbce59c919d9ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Beam.fbx using Guid(a475fb6771eb0fa46bbce59c919d9ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de27325131cf8b5b2bb1b5ac7a8fae0c') in 0.012390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Model/Block.fbx
+  artifactKey: Guid(0601ccc10f2aad14c89c7b4806d0ba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Block.fbx using Guid(0601ccc10f2aad14c89c7b4806d0ba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7bb09d232b76aa995bfa359aef9374c') in 0.011835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.055000 seconds.
+  path: Assets/Material/nova_3x3_spritesheet.mat
+  artifactKey: Guid(da7ddd9092467374182355e1178b192e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/nova_3x3_spritesheet.mat using Guid(da7ddd9092467374182355e1178b192e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b71a0c320f0d56ea5c03d774997546') in 0.009948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Material/Plane 2.mat
+  artifactKey: Guid(3dc9f5e0d6ac87145b1b6cabb328efd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Plane 2.mat using Guid(3dc9f5e0d6ac87145b1b6cabb328efd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542ac8ef3f578e6a3ca39fbeae2056fd') in 0.004408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Material/Smoke_Grey.mat
+  artifactKey: Guid(20a51e95bd8224071b1a203f48c7a570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Smoke_Grey.mat using Guid(20a51e95bd8224071b1a203f48c7a570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f3cd4a5f0a3f543147c0186b2331aa') in 0.004954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Material/ring (additive).mat
+  artifactKey: Guid(35b072e7a7dfe0f429bf5123cfc9a433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/ring (additive).mat using Guid(35b072e7a7dfe0f429bf5123cfc9a433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529918dbc491e78f82a3a4f5a5c0177f') in 0.005794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Material/Smoke_Black.mat
+  artifactKey: Guid(e2c7442f868504d24bb2df826c632cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Smoke_Black.mat using Guid(e2c7442f868504d24bb2df826c632cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8541272679e1ebfe79983822beafa28') in 0.049244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Material/verticalglow02.mat
+  artifactKey: Guid(09a060e1b100742f0bf919ca22752f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/verticalglow02.mat using Guid(09a060e1b100742f0bf919ca22752f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfffd0cee2b99e3d099caf899c9a876') in 0.004887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Model/Materials/verticalgradient2.mat
+  artifactKey: Guid(9acd86eb192ca4d9ca79a10351ae0811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Materials/verticalgradient2.mat using Guid(9acd86eb192ca4d9ca79a10351ae0811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337e96b9dca7e8380ad065e6feda3fb1') in 0.004478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Model/Materials/verticalglow02.mat
+  artifactKey: Guid(11249d607eac54b2a8629e78ba8ed645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Materials/verticalglow02.mat using Guid(11249d607eac54b2a8629e78ba8ed645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e333f577d8783a84058484df4b2ed461') in 0.003879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Material/verticalgradient2.mat
+  artifactKey: Guid(00114cc7fe15047ee9139139c7da3116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/verticalgradient2.mat using Guid(00114cc7fe15047ee9139139c7da3116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae00cecdc46302a759650eaa2d1f6d4') in 0.004011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Material/sphereshield.mat
+  artifactKey: Guid(caa9f7e40d50f44a091cc9c08b8dadfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/sphereshield.mat using Guid(caa9f7e40d50f44a091cc9c08b8dadfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920ccc8eed8a6033f92b9f1e6f582ee3') in 0.004316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Model/Materials/sphereshield.mat
+  artifactKey: Guid(97d4e8c37ad8c40c6bdfb3a0773e91fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Materials/sphereshield.mat using Guid(97d4e8c37ad8c40c6bdfb3a0773e91fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e59382b466cfac31d03d1c52b4e907') in 0.003938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
