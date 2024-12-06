@@ -66,25 +66,21 @@ public class Level : MonoBehaviour
     }
 
 
-    public void block3() {
-
+    public void block3()
+    {
     GameObject Track = PrefabUtility.InstantiatePrefab(Block3) as GameObject;
     Track.transform.position = StartLine.transform.position;
     StartLine = Track.transform.GetChild(0).transform;
     Track.transform.SetParent(Empty.transform);
-}
+    }
         
-    
-
-  
-
     public void block4()
     {
     GameObject Track = PrefabUtility.InstantiatePrefab(Block4) as GameObject;
     Track.transform.position = StartLine.transform.position;
     StartLine = Track.transform.GetChild(0).transform;
     Track.transform.SetParent(Empty.transform);
-}
+    }
 
     public void block5()
     {
